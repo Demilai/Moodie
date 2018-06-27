@@ -1,0 +1,381 @@
+/* ==================================
+MOBILE DEFAULT LAYOUT - GLOBAL STYLES
+=====================================*/
+
+html {
+
+	-webkit-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+}
+
+* {
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+/*universal style */
+
+
+a {
+	text-decoration: none;
+}
+
+
+/*.container {
+
+	width: 80%;
+	height: 100%;
+	margin: 100px auto;
+}*/
+
+@font-face {
+    font-family: 'bodoni';
+    src: url(fonts/bodoniflf-bold-webfont.eot);
+    src: url(fonts/bodoniflf-bold-webfont.woff2)
+        format('woff2'),
+        url(fonts/bodoniflf-bold-webfont.woff)
+        format('woff'),
+        src: url(fonts/bodoniflf-bold-webfont.ttf)
+        format("truetype"),
+        url(fonts/bodoniflf-bold-webfont.svg)
+        format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*============================
+			 HOME STYLES
+===============================*/
+
+body {
+    background-color:#fffffc;
+    font-family: avenir;
+	font-size: 16px;
+	color: #343434;
+	margin: 0;
+	padding: 0;
+    overflow-x: hidden;
+}
+
+.universal {
+    background-position: 75% 75%;
+    height: 100vh;
+    
+}
+
+.home {
+
+	position: relative;
+	background-image: url(image/efe-kurnaz-315384-unsplash.jpg); 
+	background-repeat: no-repeat;
+    background-size: 39%;
+    /*how to push the image down*/
+
+
+/*	height: auto;*/
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+
+}
+
+.sideBobs {
+    margin: 0% 5.5% 2%;
+    position: absolute; 
+    left: 8px;
+    top: 60px;
+    /*how to get the text to move into the left corner*/
+}
+
+.sideBobse {
+    position: relative; 
+    left: 8px;
+    top: -70px;
+}
+
+.sideBobs1 {
+    margin: 1% 0.35%;
+    transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform:rotate(90deg);
+    width: 100px;
+    float:left;
+    height: 40px;
+    position: absolute; 
+    left: 30px;
+    top: 100px;
+    /*how to get the text to move into the left corner*/
+}
+
+.sideBobsea {
+    transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform:rotate(90deg);
+    width: 100px;
+    float:left;
+    height: 40px;
+    position: relative; 
+    left: -45px;
+    top: -70px;
+}
+
+.button1 {
+    color: rgb(255, 255, 252);
+	border-radius: 20px 20px;
+	-webkit-border-radius: 20px 20px;
+	-moz-border-radius: 20px 20px;
+	cursor: pointer;
+	background-color: rgba(52, 52, 52);
+	margin: 1% 5%;
+	padding: 1%;
+	text-align: center;
+	outline: none;
+    border: 1px solid #fff;
+    font-family: avenir;
+    font-size: 12px;
+    cursor: grabbing;
+    float: left;
+    /*opacity: 1;
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+}
+
+
+.bottomBobs {
+    margin: 1% 0.35%;
+    transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform:rotate(90deg);
+    width: 100px;
+    float:right;
+    height: 40px;
+    position: absolute;
+    right: 12px;
+    bottom: 45px;
+    /*transform: translate() keeps flipping it to 180º- FIXED*/
+    /*how to get the text to move into the bottom right corner*/
+}
+
+.bottomBobse {
+    margin: 1% 0.35%;
+    transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform:rotate(90deg);
+    width: 100px;
+    float:right;
+    height: 40px;
+    position: relative;
+    right: -80px;
+    bottom: -35px;
+}
+
+.bottomBobs1 {
+    margin: 4% -4.7%;
+    padding-bottom: 2%;
+    float: right;
+    position: absolute;
+    right: 120px;
+    bottom: -50px;
+    /*how to get the text to move into the bottom right corner*/
+}
+
+.bottomBobsea {
+    padding-bottom: 2%;
+    float: right;
+    position: relative;
+    right: -150px;
+    bottom: -70px;
+}
+
+#homeTitle {
+    transform: translate(25%);
+    font-size: 550%;
+    font-family: 'Playfair Display', serif;
+    margin-left: 162px;
+    
+}
+
+#homeTitle2 {
+    margin: 2% 5.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome {
+    font: 18px/22px;
+    padding: 10px;
+    padding-right: 68%;
+    margin: 2% 5%;
+}
+
+.moodBox {
+    padding: 100px;
+}
+
+#pic2 {
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 50%;
+}
+
+.select {
+    background-color: #fffffc;
+    font-size: 24px;
+    font-weight:bold; 
+    padding:5px;
+    color:#ef1c5d;
+    border: none;
+    font-family: avenir;
+    font-size: 100%;
+}
+
+/* editing days of the week box*/
+
+.daysOfWeek {
+    margin: 0 40px 0 40px;
+    display: inline-block;
+}
+
+.button2 {
+    color: rgba(52, 52, 52);
+	cursor: pointer;
+	background-color: rgb(255, 255, 252);
+	margin: 10px auto 0 auto;
+	text-align: center;
+	outline: none;
+    border: none;
+    font-family: avenir;
+    font-size: 14px;
+    cursor: grabbing;
+}
+
+.cal1 {
+    background-image: url(image/1x/results8.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 40%%;
+}
+
+.bob {
+    color: #fffffc
+}
+
+.happyBack {
+    background-image: url(image/1x/results.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 12% 15% 12% 15%;
+    width: auto;
+    height: auto;
+}
+
+
+.titles {
+    font-family: avenir;
+    font-size: 270%;
+}
+
+.happyBack1 {
+    background-image: url(image/1x/results3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
+
+.ideab {
+    color: #2e146a;
+	border-radius: 20px 20px;
+	-webkit-border-radius: 20px 20px;
+	-moz-border-radius: 20px 20px;
+	cursor: pointer;
+	margin: 1% 5%;
+	padding: 1%;
+	text-align: center;
+	outline: none;
+    border: 1px solid #2e146a;
+    font-family: avenir;
+    font-size: 12px;
+    cursor: grabbing;
+}
+
+.ideac {
+    color: #2e146a;
+	border-radius: 20px 20px;
+	-webkit-border-radius: 20px 20px;
+	-moz-border-radius: 20px 20px;
+	cursor: pointer;
+	margin: 1% 5%;
+	padding: 1%;
+	text-align: center;
+	outline: none;
+    border: 1px solid #2e146a;
+    font-family: avenir;
+    font-size: 12px;
+    cursor: grabbing;
+}
+    
+.happyBack2 {
+    background-image: url(image/1x/results2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
+
+.happyBack3 {
+    background-image: url(image/1x/results4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
+
+.happyBack4 {
+    background-image: url(image/1x/results5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
+
+.happyBack5 {
+    background-image: url(image/1x/results6.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
+
+.happyBack6 {
+    background-image: url(image/1x/results7.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
+
+.happyBack7 {
+    background-image: url(image/1x/results8_1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15%;
+    width: auto;
+    height: auto;
+}
